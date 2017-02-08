@@ -132,25 +132,6 @@ local function onKeyEvent( event )
    end
    
    return false
-
---   if ( keyName == "volumeUp" and phase == "down" ) then
---      local masterVolume = audio.getVolume()
---      print( "volume:", masterVolume )
---      if ( masterVolume < 1.0 ) then
---         masterVolume = masterVolume + 0.1
---         audio.setVolume( masterVolume )
---      end
---      return true
---   elseif ( keyName == "volumeDown" and phase == "down" ) then
---      local masterVolume = audio.getVolume()
---      print( "volume:", masterVolume )
---      if ( masterVolume > 0.0 ) then
---         masterVolume = masterVolume - 0.1
---         audio.setVolume( masterVolume )
---      end
---      return true
---   end
---   return false  --SEE NOTE BELOW
 end
 
 --add the key callback
